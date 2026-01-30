@@ -94,7 +94,7 @@
     "wouter": "^3.3.5",
     "xlsx": "^0.18.5",
     "zod": "^4.1.12",
-    "vite": "^7.1.7",
+    "vite": "^7.1.7"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
