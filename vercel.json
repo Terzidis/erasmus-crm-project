@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm build:client",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/main.ts" },
     { "source": "/auth/(.*)", "destination": "/api/main.ts" },
