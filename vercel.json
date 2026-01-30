@@ -1,8 +1,9 @@
 {
   "version": 2,
-  "installCommand": "pnpm install",
-  "installCommand": "npm install -g pnpm@9.15.4 && pnpm install"
+  "installCommand": "npm install -g pnpm@9.15.4 && pnpm install",
+  "buildCommand": "pnpm build:client",
   "outputDirectory": "dist",
+  "framework": "vite",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/main.ts" },
     { "source": "/auth/(.*)", "destination": "/api/main.ts" },
